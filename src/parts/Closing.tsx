@@ -46,7 +46,7 @@ const ClosingPage: React.FC = () => (
     وَالسَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
     </p>
 
-    <div className="absolute p-4 bottom-0 left-0 w-screen h-[100px] background-flowers flex flex-row items-center justify-center text-xs gap-1 text-gray-600">
+    <div className="absolute p-4 bottom-0 left-0 w-full h-[100px] background-flowers flex flex-row items-center justify-center text-xs gap-1 text-gray-600">
       <a
         target="_blank"
         href="https://www.instagram.com/sharewithyou_id/"

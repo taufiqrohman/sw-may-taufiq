@@ -12,7 +12,7 @@ const OpeningPage: React.FC = () => (
       <span className='text-white text-sm mt-2'>11 . 12 . 2022</span>
     </div>
 
-    <div className="absolute p-4 bottom-0 left-0 w-screen h-[100px] flex flex-col items-center justify-end gap-1 text-white">
+    <div className="absolute p-4 bottom-0 left-0 w-full h-[100px] flex flex-col items-center justify-end gap-1 text-white">
       <span className='text-center text-[10px]'>
         Scroll ke bawah
       </span>

@@ -54,7 +54,7 @@ const DetailPage: React.FC = () => (
       </div>
     </div>
 
-    <div className="absolute p-4 bottom-0 left-0 w-screen h-[100px] background-flowers flex flex-col items-center justify-end gap-1 text-gray-600">
+    <div className="absolute p-4 bottom-0 left-0 w-full h-[100px] background-flowers flex flex-col items-center justify-end gap-1 text-gray-600">
       <span className='text-center text-[10px] text-gray-500'>
         Scroll ke bawah
       </span>
