@@ -1,25 +1,30 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
+import useSound from 'use-sound';
 import './App.css';
-import CoverPage from './parts/Cover';
+import musicBg from './assets/youre-the-reason-felix-irwan-cover.mp3';
 import BrideAndGroomPage from './parts/BrideAndGroom';
-import OpeningPage from './parts/Opening';
+import ClosingPage from './parts/Closing';
+import CoverPage from './parts/Cover';
 import DetailPage from './parts/Detail';
 import GalleryPage from './parts/Gallery';
-import ClosingPage from './parts/Closing';
+import OpeningPage from './parts/Opening';
 
 function App() {
-  const [
-    isOpen,
-    setIsOpen,
-  ] =
-    useState<boolean>(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [play] = useSound(musicBg, {
+    volume: 0.3,
+  });
+
+  const openPage = () => {
+    setIsOpen(true);
+    play();
+  };
 
   return (
     <div className='App'>
       {!isOpen && (
         <CoverPage
-          onOpen={() => setIsOpen(true)}
+          onOpen={openPage}
         />
       )}
       {isOpen && (
