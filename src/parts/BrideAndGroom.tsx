@@ -43,7 +43,7 @@ const BrideAndGroomPage: React.FC = () => (
       <div className="mt-4">
         <h5 className="font-handwriting font-bold text-2xl">Siti Maisyaroh</h5>
         <div className="italic font-light text-xs">
-          Putra tunggal dari Alm. Bapak Budiono dan Ibu Endang Rahayu
+          Putri tunggal dari Alm. Bapak Budiono dan Ibu Endang Rahayu
         </div>
         <div className='mt-1 font-light text-xs'>- Kota Malang -</div>
       </div>
