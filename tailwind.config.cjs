@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Open Sans'],
-        'handwriting': ['Gwendolyn'],
+        'handwriting': ['Rouge Script'],
         'body': ['Open Sans'],
         'arabic': ['Amiri']
       },

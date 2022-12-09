@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .background-cover {
   background-image: url('../assets/cover.png');
   background-repeat: no-repeat;
